@@ -1,0 +1,12 @@
+{
+    "name": "frnkly/laravel-embeds",
+    "description": "API embeds for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "frnkly",
+            "email": "frank@frnk.ca"
+        }
+    ],
+    "require": {}
+}
