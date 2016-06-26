@@ -56,7 +56,6 @@ trait Embedable
         // Retrieve list of appendable attributes.
         if (is_null($attributes))
         {
-            // ...
             $className = get_class($model);
             if (isset($className::$embedableAttributes) && is_array($className::$embedableAttributes)) {
                 $attributes = $className::$embedableAttributes;
