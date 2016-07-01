@@ -23,5 +23,8 @@
         "psr-4": {
             "Frnkly\\": "src/"
         }
+    },
+    "require-dev": {
+        "crysalead/kahlan": "^2.5"
     }
 }
