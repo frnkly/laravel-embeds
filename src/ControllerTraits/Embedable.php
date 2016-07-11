@@ -1,4 +1,6 @@
-<?php namespace Frnkly\Traits;
+<?php
+
+namespace Frnkly\ControllerTraits;
 
 trait Embedable
 {
