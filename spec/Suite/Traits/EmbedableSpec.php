@@ -7,11 +7,13 @@ use Frnkly\Spec\MockModels\Article;
 
 describe('Model', function() {
 
-    $model = new Article;
+    describe('__toString', function() {
 
-    it('tests Khalan', function() {
+        it('Embeds the given attributes to the model\'s array form.', function() {
 
-        expect(true)->toBeTruthy();
+            $model = new Article;
 
+            expect(true)->toBeTruthy();
+        });
     });
 });
