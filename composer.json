@@ -24,7 +24,16 @@
             "Frnkly\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Frnkly\\Spec\\": "spec/"
+        }
+    },
     "require-dev": {
-        "crysalead/kahlan": "^2.5"
+        "crysalead/kahlan": "^2.5",
+        "laravel/framework": "^5.2"
+    },
+    "config": {
+        "bin-dir": "bin"
     }
 }
